@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Animales</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="script.js"></script>
+
+
+     <div>
+      <h2> 
+     ¡Bienvenido a esta Trivia!
+   </h2>
+
+<div>
+<div>
+  <label> Escribe tu nombre aquí:<label>
+
+<input id="nombre" type="Text">
+
+<script type="text/javascript">
+    // guardar datos
+    localStorage.setItem("nombre", "dato");
+
+    // leer datos
+    var miDato = localStorage.getItem("nombre");
+</script>
+
+<a href="bienvenida.html">
+<button onclick="miNombreEs()"> Jugar
+</button>
+</a>
+
+<div id="empezar" style="display:none">
+
+<label>Que comience la trivia <label> <label id="nombreConcursante"></label>
+</div>
+</div>
+   
+  </body>
+
+
+  
+ 
+</html>
