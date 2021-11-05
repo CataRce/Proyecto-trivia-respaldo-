@@ -247,6 +247,7 @@ const checkbtn6 = (Option) => {
       document.getElementById("boton18").className = 'botonError';
       document.getElementById("boton16").className = 'botonError';
       document.getElementById("boton17").className = 'botonCorrecto';
+     
       score += 50;
       localStorage.setItem('score', score);
       console.log(score);

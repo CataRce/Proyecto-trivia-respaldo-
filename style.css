@@ -9,33 +9,37 @@
 }
 
 div{
-  text-align: center;
-  
+  text-align: center;  
 }
 
 h2{
   text-align: center;
   font-family: Verdana;
-  
-  
 }
 
 .title1{
   color: #ffff;
   text-shadow: 0 0 5px #000;
 }
+
 button{
   margin: 10px;
   width: 60%;
+background-color: #FB8756;
+border: none;
+border-radius: 8px;
 }
 
-.imagenPregunta1{
- vertical-align: center;
-  background-image: url(img/three-toed-sloth-mapachetours.jpeg);
+
+.backgroundColor{
+ background: #F6DC85;
 }
 
-
-.imagenPregunta2{
-  background-image: url(img/AC206C8A-212C-446F-BDD9-733AC7A1AE52.jpeg);
+.colorbtn{
+background-color: #FB8756;
+border: none;
 }
 
+.font{
+  font-family: Verdana;
+}
